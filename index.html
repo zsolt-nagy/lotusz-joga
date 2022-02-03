@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lotus Jóga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header-container">
+      <nav class="header-nav-container">
+        <h1 class="logo"><a href="#" class="logo-text">Lótusz Jóga</a></h1>
+        <ul class="header-menu">
+          <li class="header-menu__li">
+            <a href="#" class="header-li__link">Óráink</a>
+          </li>
+          <li class="header-menu__li">
+            <a href="#" class="header-li__link">Oktatóink</a>
+          </li>
+          <li class="header-menu__li">
+            <a href="#" class="header-li__link">Cikkek</a>
+          </li>
+          <li class="header-menu__li">
+            <a href="#" class="header-li__link">Bérletek</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-buttons">
+        <button class="btn btn-transparent">
+          <img
+            src="./assets/arrow-circle-right-solid.svg"
+            class="btn-icon"
+            alt="Belépés"
+          />
+          Belépés
+        </button>
+        <button class="btn btn-full">
+          <span class="btn-icon-background">
+            <img
+              src="./assets/plus-solid.svg"
+              class="btn-icon"
+              alt="Regisztráció"
+            />
+          </span>
+          Regisztráció
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="carousel">
+        <div class="carousel-kép carousel-kép-1 d-none">
+          <h2 class="carousel-title">Jóga a könnyebb életért.</h2>
+          <!-- TODO: img lehet background-image a konténer diven -->
+        </div>
+        <div class="carousel-kép carousel-kép-2">
+          <h2 class="carousel-title">Jóga webshop</h2>
+          <!-- TODO: img lehet background-image a konténer diven -->
+        </div>
+      </section>
+      <section class="classes">
+        <div class="yoga-class-card">
+          <h2 class="yoga-class-card__title">Kezdő Hatha jóga</h2>
+          <!-- TODO: img lehet background-image a konténer diven -->
+          <img
+            class="yoga-class-card__img"
+            src="./assets/yoga-class.jpg"
+            alt="Jóga óra."
+          />
+          <p class="yoga-class-card__p">Lorem ipsum dolor sit amet.</p>
+          <div class="yoga-class-card__badges">
+            <span class="badge">Kezdő</span>
+            <span class="badge">Hatha</span>
+          </div>
+        </div>
+        <div class="yoga-class-card">
+          <h2 class="yoga-class-card__title">Középhaladó Hatha jóga</h2>
+          <!-- TODO: img lehet background-image a konténer diven -->
+          <img
+            class="yoga-class-card__img"
+            src="./assets/yoga-class.jpg"
+            alt="Jóga óra."
+          />
+          <p class="yoga-class-card__p">Lorem ipsum dolor sit amet.</p>
+          <div class="yoga-class-card__badges">
+            <span class="badge">Középhaladó</span>
+            <span class="badge">Hatha</span>
+          </div>
+        </div>
+        <div class="yoga-class-card">
+          <h2 class="yoga-class-card__title">Haladó Hatha jóga</h2>
+          <!-- TODO: img lehet background-image a konténer diven -->
+          <img
+            class="yoga-class-card__img"
+            src="./assets/yoga-class.jpg"
+            alt="Jóga óra."
+          />
+          <p class="yoga-class-card__p">Lorem ipsum dolor sit amet.</p>
+          <div class="yoga-class-card__badges">
+            <span class="badge">Középhaladó</span>
+            <span class="badge">Hatha</span>
+          </div>
+        </div>
+      </section>
+      <section class="register-cta-container">
+        <div class="register-text-container">
+          <h2 class="register__heading">A Lótusz Jóga óráinak tematikája</h2>
+          <p class="register__p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nisi
+            temporibus neque!
+          </p>
+          <p class="register__p">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum aut
+            tenetur corrupti sequi qui quia id totam, consectetur, eveniet earum
+            facere reprehenderit enim, quas vitae.
+          </p>
+          <button class="register__button">Regisztráció</button>
+        </div>
+        <div class="register-image"></div>
+      </section>
+      <section class="bérletek">
+        <h2>Bérletek</h2>
+        <div>
+          <h3>Havi bérlet</h3>
+          <strong>5 900 Ft</strong>
+          <ul>
+            <li>Akár minden órán résztvehetsz</li>
+            <li>Havonta megújítható</li>
+            <li>Garantált ár</li>
+            <li>Bármikor megszakítható</li>
+          </ul>
+          <button>Vásárlás</button>
+        </div>
+        <div>
+          <h3>Éves bérlet</h3>
+          <strong>49 000 Ft</strong>
+          <ul>
+            <li>Akár minden órán résztvehetsz</li>
+            <li>Évente megújítható</li>
+            <li>Garantált ár</li>
+            <li>Bármikor megszakítható</li>
+          </ul>
+          <button>Vásárlás</button>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="blog-thumbnail">
+          <h2>Mi a jóga?</h2>
+          <!-- TODO: img lehet background-image a konténer diven -->
+          <img src="./assets/yoga-class.jpg" alt="Jóga óra." />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Blanditiis, corrupti nulla!
+          </p>
+          <time datetime="2022-02-14 19:00">2022-02-14 19:00</time>
+        </div>
+        <div class="blog-thumbnail">
+          <h2>Sun Salutation</h2>
+          <!-- TODO: img lehet background-image a konténer diven -->
+          <img src="./assets/yoga-class.jpg" alt="Jóga óra." />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Blanditiis, corrupti nulla!
+          </p>
+          <time datetime="2022-02-14 19:00">2022-02-14 19:00</time>
+        </div>
+        <div class="blog-thumbnail">
+          <h2>Child Pose</h2>
+          <!-- TODO: img lehet background-image a konténer diven -->
+          <img src="./assets/yoga-class.jpg" alt="Jóga óra." />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Blanditiis, corrupti nulla!
+          </p>
+          <time datetime="2022-02-14 19:00">2022-02-14 19:00</time>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <ul class="social-links">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+        <ul class="footer-linkek">
+          <li><a href="#">Adatvédelem</a></li>
+          <li><a href="#">Impresszum</a></li>
+          <li><a href="#">Kapcsolat</a></li>
+          <li><a href="#">Bérletek</a></li>
+        </ul>
+      </nav>
+      <p>Copyright &copy; Lótusz Jóga 2022</p>
+    </footer>
+  </body>
+</html>
